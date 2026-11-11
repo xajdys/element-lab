@@ -9,11 +9,121 @@
 </head>
 
 <body>
+    <header>
+        <hgroup>
+            <h1>ElementLab</h1>
+            <p>Explore HTML elements through interactive demonstrations.</p>
+        </hgroup>
+    </header>
+
     <main>
-        <h1>ElementLab</h1>
-        <p>Explore HTML elements through interactive demonstrations.</p>
+        <section>
+            <h2>Explore HTML Elements</h2>
+            <p>Discover HTML elements through practical examples and interactive demos.</p>
+        </section>
+
+        <section>
+            <h2>Find an HTML element</h2>
+
+            <label for="element-search">Search elements</label>
+            <input type="search" id="element-search" placeholder="Try canvas, picture, template...">
+        </section>
+
+        <section>
+            <h2>HTML Elements</h2>
+
+            <article class="element-card">
+                <p class="element-category">Graphics & Drawing</p>
+                <h3><code>&lt;canvas&gt;</code></h3>
+                <p>Draw graphics and illustrations directly in the browser using JavaScript.</p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Embedded Content</p>
+                <h3><code>&lt;embed&gt;</code></h3>
+                <p>Displays external content, such as PDFs, images, or other multimedia files, directly inside a
+                    webpage.</p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Embedded Content</p>
+                <h3><code>&lt;object&gt;</code></h3>
+                <p>Embeds external resources, such as images or documents, with the option to provide fallback content
+                    if the resource cannot be displayed.</p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Images & Media</p>
+                <h3><code>&lt;picture&gt;</code> & <code>&lt;source&gt;</code></h3>
+                <p>Displays different images based on conditions such as screen size or supported image formats, with an
+                    <code>&lt;img&gt;</code> element as the fallback.
+                </p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Images & Navigation</p>
+                <h3><code>&lt;map&gt;</code> & <code>&lt;area&gt;</code></h3>
+                <p>Creates clickable areas within an image, allowing different regions to link to different
+                    destinations.</p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Audio & Video</p>
+                <h3><code>&lt;track&gt;</code></h3>
+                <p>Adds timed text tracks, such as subtitles, captions, and descriptions, to audio and video elements.
+                </p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Tables & Data</p>
+                <h3><code>&lt;colgroup&gt;</code></h3>
+                <p>Groups columns in an HTML table, allowing you to apply styles or properties to one or more columns.
+                </p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Reusable Content</p>
+                <h3><code>&lt;template&gt;</code> & <code>&lt;slot&gt;</code></h3>
+                <p>Provides reusable HTML content with a template and placeholders where custom content can be inserted
+                    using Shadow DOM.</p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Scripting & Fallbacks</p>
+                <h3><code>&lt;noscript&gt;</code></h3>
+                <p>Displays alternative HTML content when JavaScript is disabled or not supported by the browser.</p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Text & Typography</p>
+                <h3><code>&lt;rt&gt;</code> & <code>&lt;rp&gt;</code></h3>
+                <p>Adds pronunciation or annotation text to ruby characters, with fallback parentheses for browsers that
+                    don't support ruby annotations.</p>
+                <a href="#">Explore element →</a>
+            </article>
+
+            <article class="element-card">
+                <p class="element-category">Browser APIs</p>
+                <h3><code>&lt;geolocation&gt;</code></h3>
+                <p>Provides a browser-controlled way for users to share their location with a webpage. Support is
+                    experimental and varies by browser.</p>
+                <a href="#">Explore element →</a>
+            </article>
+        </section>
     </main>
 
+    <footer>
+        <p>&copy; 2026 ElementLab. Built for learning HTML.</p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 
