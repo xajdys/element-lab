@@ -1,3 +1,15 @@
-body{
-    background-color: lightblue;
+.element-category{
+    color: purple;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.element-card {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin: 1rem;
+    max-width: 320px;
+    margin-inline: auto;
 }
