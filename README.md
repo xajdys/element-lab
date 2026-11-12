@@ -65,7 +65,7 @@ element-lab/
 │   └── yellow.png
 │ 
 └── videos/
-    └── captions.vtt
+│    └── captions.vtt
 └── README.md
 ```
 
