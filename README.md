@@ -59,13 +59,14 @@ element-lab/
 │   └── script.js
 ├── images/
 │   └── lavender.jpg
-    └── purple.png
-    └── sample.png
-    └── teal.png
-    └── yellow.png
-
+│   └── purple.png
+│   └── sample.png
+│   └── teal.png
+│   └── yellow.png
+│ 
 └── videos/
     └── captions.vtt
+└── README.md
 ```
 
 ## License
